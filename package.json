@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mengiefen/awesome-books-es6#readme",
   "dependencies": {
     "luxon": "^2.3.0"
+  },
+  "devDependencies": {
+    "hint": "^6.1.9"
   }
 }

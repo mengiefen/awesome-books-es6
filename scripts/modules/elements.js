@@ -7,6 +7,7 @@ const addNewBook = document.getElementById("add-new-book");
 const contactInfo = document.getElementById("contact");
 const newDate = document.getElementById("current-date");
 const form = document.getElementsByTagName("form")[0];
+const error = document.querySelector(".error");
 
 export {
   bookShelf,
@@ -18,4 +19,5 @@ export {
   contactInfo,
   newDate,
   form,
+  error,
 };
