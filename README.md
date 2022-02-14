@@ -46,6 +46,11 @@ To get a local copy up and running follow these simple example steps.
 
   `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
 
+ - **luxon** libray
+
+    `npm install --save luxon`
+
+
 ### Run tests
 
 - **Webhint** linter -`npx hint .` on the root of your directory of your project.
