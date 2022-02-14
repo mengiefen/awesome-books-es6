@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-**[FOLLOW THIS LINK TO SEE THE LIVE DEMO](https://mengiefen.github.io/awesome-books/)**
+**[FOLLOW THIS LINK TO SEE THE LIVE DEMO](https://mengiefen.github.io/awesome-books-es6/)**
 
 ## 📝 License
 
