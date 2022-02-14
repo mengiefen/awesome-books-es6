@@ -1,11 +1,11 @@
-import formattedDate from './modules/date.js';
-import { newDate, addButton } from './modules/elements.js';
-import handleNavigation from './modules/navigation.js';
-import addSingleBook from './modules/addBook.js';
-import redirectToList from './modules/redirect.js';
-import drawAllBooks from './modules/reRender.js';
-import showError from './modules/error.js';
-import book from './modules/createNewBook.js';
+import formattedDate from './scripts/modules/date.js';
+import { newDate, addButton } from './scripts/modules/elements.js';
+import handleNavigation from './scripts/modules/navigation.js';
+import addSingleBook from './scripts/modules/addBook.js';
+import redirectToList from './scripts/modules/redirect.js';
+import drawAllBooks from './scripts/modules/reRender.js';
+import showError from './scripts/modules/error.js';
+import book from './scripts/modules/createNewBook.js';
 
 // Show current time
 newDate.innerHTML = formattedDate;
