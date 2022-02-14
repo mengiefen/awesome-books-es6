@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #edf1f1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232b7a78' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+body > *:not(.header),
+body > *:not(.footer) {
+  padding: 0 6%;
+}
+
+/* Header and Navigation */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  background: #e5ebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px #bfcaca;
+}
+
+.logo {
+  color: #2b7a78;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #0e3a38;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  color: #2b7a78;
+}
+
+#current-date {
+  font-size: 1.2rem;
+  padding-top: 9.5vh;
+  text-align: right;
+  color: #2b7a78;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 1rem;
+  }
+}
+
+/* Style for the Book List Page */
+#book-list {
+  display: flex;
+  flex-direction: column;
+  scrollbar-color: #2b7a78 #c6d7d7;
+}
+
+#book-shelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  max-height: 70vh;
+  overflow-y: scroll;
+  background-color: #e5ebeb;
+  border: 1px solid #bfcaca;
+  box-shadow: 2px 2px 5px 2px #bfcaca;
+}
+
+.border {
+  width: 16rem;
+  align-self: center;
+  height: 2px;
+  background: #2b7a78;
+  margin-bottom: 2px;
+}
+
+#add-new-book {
+  display: none;
+  flex-direction: column;
+  margin: 4vh auto 0 auto;
+  width: 50%;
+}
+
+.book-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  padding: 1rem;  
+}
+
+.book-holder:nth-child(even) {
+  background: #d9dddd;
+}
+
+.book-holder:nth-child(odd) {
+  background: #bfcaca;
+}
+
+.btn-remove {
+  padding: 8.5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #2b7a78;
+  color: #def2f1;
+  cursor: pointer;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper-book-entry {
+    width: 70%;
+  }
+}
+
+/* Styles for Add New Book Page */
+form {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-entry {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading1 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #2b7a78;
+  text-transform: uppercase;
+}
+
+input {
+  font-size: 1.4rem;
+  outline: none;
+  padding: 1.3rem 0.5rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #d9dddd;
+  background-color: #f4f8f8;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 0;
+  font-family: Lato, sans-serif;
+}
+
+h4 span {
+  font-weight: 700;
+}
+
+#btn-add {
+  padding: 1.4rem;
+  align-self: flex-end;
+  background: #2b7a78;
+  color: white;
+  cursor: pointer;
+  font-family: Lato, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  border-radius: 30px
+}
+
+input:focus,
+input:active {
+  border-bottom: 3px solid #2b7a78;
+}
+
+/* Styles for Contact Page */
+#contact {
+  display: none;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 4% auto;
+  align-items: center;
+}
+
+.info {
+  padding-bottom: 1.5%;
+  padding-top: 6rem;
+  font-weight: 600;
+}
+
+.specific-info {
+  padding-left: 4rem;
+}
+
+.this-info {
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Styles for Page Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  border-top: 1px solid #94afaf;
+}
+
+.footer h2 {
+  font-size: 1.4rem;
+  color: #2b7a78;
+}
