@@ -1,6 +1,6 @@
 
 
-![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success) [![](https://mengiefen.github.io/awesome-books-es6/)
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success) [![](https://img.shields.io/badge/LIVE-DEMO-blue)](https://mengiefen.github.io/awesome-books-es6/)
 
 # Awesome Books
 This project allows users to add/remove books from a list. This is done by using JavaScript  ES6. It has the feature to dynamically modify the DOM and add basic events.
