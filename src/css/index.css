@@ -83,6 +83,13 @@ body > *:not(.footer) {
   scrollbar-color: #2b7a78 #c6d7d7;
 }
 
+.message {
+  display: none;
+  font-size: 1.4em;
+  color: #2b7a78;
+  padding: 1rem;
+}
+
 #book-shelf {
   display: flex;
   flex-direction: column;

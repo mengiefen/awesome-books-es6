@@ -1,4 +1,7 @@
-import { error } from "./elements.js";
-export const showError = () => {
+import { error } from './elements.js';
+
+const showError = () => {
   error.style.display = 'block';
 };
+
+export default showError;

@@ -39,5 +39,4 @@ export default class Book {
   writeBooks() {
     localStorage.setItem('books', JSON.stringify(this.Books));
   }
-
 }
