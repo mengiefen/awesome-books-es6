@@ -22,7 +22,6 @@ body > *:not(.footer) {
   padding: 0 6%;
 }
 
-/* Header and Navigation */
 .header {
   position: fixed;
   top: 0;
@@ -76,7 +75,6 @@ body > *:not(.footer) {
   }
 }
 
-/* Style for the Book List Page */
 #book-list {
   display: flex;
   flex-direction: column;
@@ -152,7 +150,6 @@ body > *:not(.footer) {
   }
 }
 
-/* Styles for Add New Book Page */
 form {
   padding-top: 7rem;
   display: flex;
@@ -219,7 +216,6 @@ input:active {
   border-bottom: 3px solid #2b7a78;
 }
 
-/* Styles for Contact Page */
 #contact {
   display: none;
   flex-direction: column;
@@ -243,7 +239,6 @@ input:active {
   margin-bottom: 1.5rem;
 }
 
-/* Styles for Page Footer */
 .footer {
   position: fixed;
   bottom: 0;

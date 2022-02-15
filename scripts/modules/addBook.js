@@ -4,7 +4,6 @@ import {
   titleInput, authorInput, form, error,
 } from './elements.js';
 
-// Add single book and writes to local storage
 const addSingleBook = () => {
   book.title = titleInput.value;
   book.author = titleInput.value;

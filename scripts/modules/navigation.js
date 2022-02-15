@@ -1,6 +1,5 @@
 import { booklist, addNewBook, contactInfo } from './elements.js';
 
-// Handles navigation for Single Page Application(SPA)
 const handleNavigation = (target) => {
   if (target.innerHTML === 'List') {
     booklist.style.display = 'flex';

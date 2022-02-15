@@ -1,6 +1,5 @@
 import { bookShelf } from './elements.js';
 
-// Renders each book with single row
 const displayBook = (book) => {
   const bookHolderHTML = `    
     <h4 class="book-title"><em>"${book.title}" by <span>${book.author}</span></em> </h4>  

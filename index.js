@@ -7,13 +7,10 @@ import drawAllBooks from './scripts/modules/reRender.js';
 import showError from './scripts/modules/error.js';
 import book from './scripts/modules/createNewBook.js';
 
-// Show current time
 newDate.innerHTML = formattedDate;
 
-// Renders book at page load
 drawAllBooks();
 
-// Event listener for 'Add new Button'
 addButton.addEventListener('click', () => {
   const status = addSingleBook();
   if (status) {
@@ -23,7 +20,6 @@ addButton.addEventListener('click', () => {
   }
 });
 
-// Event listener for 'Add new Button', and Nav Items
 document.body.addEventListener(
   'click',
   (event) => {
