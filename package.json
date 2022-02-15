@@ -1,8 +1,12 @@
 {
   "name": "awesome-books-es6",
   "version": "1.0.0",
-  "description": "",
-  "fdd": "index.html",
+  "description": "", 
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
