@@ -1,6 +1,6 @@
 
 
-![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success) [![](https://img.shields.io/badge/LIVE-DEMO-blue)](https://mengiefen.github.io/awesome-books/)
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success) [![](https://img.shields.io/badge/LIVE-DEMO-blue)](https://mengiefen.github.io/awesome-books-es6/)
 
 # Awesome Books
 This project allows users to add/remove books from a list. This is done by using JavaScript  ES6. It has the feature to dynamically modify the DOM and add basic events.
@@ -46,6 +46,11 @@ To get a local copy up and running follow these simple example steps.
 
   `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
 
+ - **luxon** libray
+
+    `npm install --save luxon`
+
+
 ### Run tests
 
 - **Webhint** linter -`npx hint .` on the root of your directory of your project.
@@ -70,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-**[FOLLOW THIS LINK TO SEE THE LIVE DEMO](https://mengiefen.github.io/awesome-books/)**
+**[FOLLOW THIS LINK TO SEE THE LIVE DEMO](https://mengiefen.github.io/awesome-books-es6/)**
 
 ## 📝 License
 
